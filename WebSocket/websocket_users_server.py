@@ -17,7 +17,7 @@ async def echo(websocket: ServerConnection):
 
 # Запускаем WebSocket-сервер. Порт 8765
 async def main():
-    server = await websockets.serve(echo, "localhost", 8766)
+    server = await websockets.serve(echo, "localhost", 8765)
     print("WebSocket сервер запущен на ws://localhost:8765")
     await server.wait_closed()
 
