@@ -1,10 +1,10 @@
 import httpx
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 # Константы
 BASE_URL = 'http://127.0.0.1:8000'
 USER_EMAIL = 'test_user@example.com'
-USER_NEW_EMAIL = get_random_email()
+USER_NEW_EMAIL = fake.email()
 USER_PASSWORD = '123456789'
 
 # Данные для тела запроса /api/v1/users
