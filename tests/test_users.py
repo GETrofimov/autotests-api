@@ -22,4 +22,4 @@ def test_create_users():
     # Проверяем, что данные ответа совпадают с данными запроса
     assert_create_user_response(request, response_data)
 
-    validate_json_schema(response.json(), response_data.model_json_schema)
+    validate_json_schema(response.json(), response_data.model_json_schema())
