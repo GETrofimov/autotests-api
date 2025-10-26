@@ -7,7 +7,7 @@ class PrivateUsersClient(APIClient):
     """
     Клиент для работы с /api/v1/users, которые требуют авторизации 
     """    
-    def det_user_me_api(self) -> Response:
+    def get_user_me_api(self) -> Response:
         """
         Метод получения текущего пользователя.
 
