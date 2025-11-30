@@ -46,7 +46,7 @@ def assert_update_course_response(
         assert_equal(response.course.estimated_time, request.estimated_time, "title")
 
 
-def assert_course(actual: CourseSchema, expected:CourseSchema):
+def assert_course(actual: CourseSchema, expected: CourseSchema):
     """
     Проверяет, что фактические данные курса соответствуют ожидаемым.
 
