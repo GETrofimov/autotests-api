@@ -5,7 +5,7 @@ from clients.private_http_builder import AuthenticationUserSchema, get_private_h
 
 
 class ExercisesClient(APIClient):
-    def get_exersises_api(self, query: GetExercisesQuerySchema) -> Response:
+    def get_exercises_api(self, query: GetExercisesQuerySchema) -> Response:
         """
         Метод получения списка заданий курса.
 
@@ -68,7 +68,7 @@ class ExercisesClient(APIClient):
         :param query: Словарь с courseId.
         :return: Ответ от сервера сконвертированный в json объект
         """
-        response = self.get_exersises_api(request)
+        response = self.get_exercises_api(request)
         return GetExercisesResponseSchema.model_validate_json(response.text)
     
     def create_exercise(self, request: CreateExerciseRequestSchema) -> CreateExerciseResponseSchema:
