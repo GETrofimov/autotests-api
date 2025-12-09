@@ -27,11 +27,11 @@ from tools.assertions.courses import assert_get_courses_response, assert_update_
 @allure.parent_suite(AllureEpic.LMS)
 @allure.suite(AllureFeature.COURSES)
 class TestCourses:
-    @allure.tag(AllureTag.GET_ENTITIES)
-    @allure.story(AllureStory.GET_ENTITIES)
+    @allure.tag(AllureTag.UPDATE_ENTITY)
+    @allure.story(AllureStory.UPDATE_ENTITY)
     @allure.title("Update course")
     @allure.severity(Severity.CRITICAL)
-    @allure.sub_suite(AllureStory.GET_ENTITY)
+    @allure.sub_suite(AllureStory.UPDATE_ENTITY)
     def test_update_course(self, course_client: CoursesClient, function_course: CourseFixture):
         request = UpdateCourseRequestSchema()
         response = course_client.update_course_api(function_course.response.course.id, request)
@@ -43,11 +43,11 @@ class TestCourses:
         validate_json_schema(response.json(), response_data.model_json_schema())
 
 
-    @allure.tag(AllureTag.UPDATE_ENTITY)
-    @allure.story(AllureStory.UPDATE_ENTITY)
+    @allure.tag(AllureTag.GET_ENTITIES)
+    @allure.story(AllureStory.GET_ENTITIES)
     @allure.title("Get multiple courses")
     @allure.severity(Severity.BLOCKER)
-    @allure.sub_suite(AllureStory.UPDATE_ENTITY)
+    @allure.sub_suite(AllureStory.GET_ENTITIES)
     def test_get_courses(self, course_client: CoursesClient, function_course: CourseFixture, function_user: UserFixture):
         query = GetCoursesQuerySchema(user_id=function_user.response.user.id)
         response = course_client.get_courses_api(query)

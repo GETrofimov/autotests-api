@@ -1,13 +1,15 @@
+import allure
 from clients.courses.courses_schema import CourseSchema, CreateCourseRequestSchema, CreateCourseResponseSchema, UpdateCourseRequestSchema, UpdateCourseResponseSchema, GetCoursesResponseSchema
 from tools.assertions.base import assert_equal, assert_length
 from tools.assertions.files import assert_file
 from tools.assertions.users import assert_user
 
 
+@allure.step("Check create course response")
 def assert_create_course_response(
         request: CreateCourseRequestSchema,
         response: CreateCourseResponseSchema
-):
+    ):
     """
     Проверяет, что ответ на создание курса соответствует данным из запроса.
 
@@ -23,10 +25,11 @@ def assert_create_course_response(
     assert_equal(response.course.preview_file.id, request.preview_file_id, "previewFileId")
     assert_equal(response.course.created_by_user.id, request.created_by_user_id, "createdByUserId")
 
+@allure.step("Check update course response")
 def assert_update_course_response(    
         request: UpdateCourseRequestSchema,
         response: UpdateCourseResponseSchema
-        ):
+    ):
     """
     Проверяет, что ответ на обновление курса соответствует данным из запроса.
 
@@ -45,7 +48,7 @@ def assert_update_course_response(
     if request.estimated_time is not None:
         assert_equal(response.course.estimated_time, request.estimated_time, "title")
 
-
+@allure.step("Check course")
 def assert_course(actual: CourseSchema, expected: CourseSchema):
     """
     Проверяет, что фактические данные курса соответствуют ожидаемым.
@@ -64,11 +67,11 @@ def assert_course(actual: CourseSchema, expected: CourseSchema):
     assert_file(actual.preview_file, expected.preview_file)
     assert_user(actual.created_by_user, expected.created_by_user)
 
-
+@allure.step("Check get courses response")
 def assert_get_courses_response(
         get_courses_response: GetCoursesResponseSchema,
         create_course_responses: list[CreateCourseResponseSchema]
-):
+    ):
     """
     Проверяет, что ответ на получение списка курсов соответствует ответам на их создание.
 
