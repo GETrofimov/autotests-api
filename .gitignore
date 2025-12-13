@@ -1,4 +1,3 @@
-allure-results/*
 __pycache__
 .vscode
 .venv
