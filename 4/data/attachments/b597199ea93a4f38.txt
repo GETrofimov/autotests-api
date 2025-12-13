@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDExOjE4OjUzLjA1MjA3NiIsInVzZXJfaWQiOiIzZmVlYmE1OC1lNjQwLTQ0NzctOTgyMS1iNzM0M2RkMDdlN2MifQ.QDImQCxgnfX-4Mzqe_BzSe4ISwmCXseKhrBW3Y0Txsg' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fish participant rate institution need within first.","maxScore":58,"minScore":22,"description":"Party sport owner. Suggest administration up agency partner move arrive. Concern still late program.","estimatedTime":"8 weeks","previewFileId":"044e89a6-a559-42ca-b6db-a2bef9388277","createdByUserId":"3feeba58-e640-4477-9821-b7343dd07e7c"}'

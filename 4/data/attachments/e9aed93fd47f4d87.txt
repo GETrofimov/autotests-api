@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:21 Make GET request to http://localhost:8000/api/v1/exercises?courseId=83c7145f-d65b-4961-8a41-1919a83c7475
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=83c7145f-d65b-4961-8a41-1919a83c7475
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:127 Check get multiple exercise response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "courses" equals to 1
+INFO     EXERCISE_ASSERTIONS:exercises.py:46 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Doctor option condition area authority action.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 83c7145f-d65b-4961-8a41-1919a83c7475
+INFO     BASE_ASSERTIONS:base.py:38 Check that "maxScore" equals to 80
+INFO     BASE_ASSERTIONS:base.py:38 Check that "minScore" equals to 8
+INFO     BASE_ASSERTIONS:base.py:38 Check that "orderIndex" equals to 73
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Much example face wrong fill enjoy certainly. Site pattern road. State election open whether account morning.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimatedTime" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

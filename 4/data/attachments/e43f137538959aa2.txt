@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDExOjE4OjUyLjQ1NjY1OSIsInVzZXJfaWQiOiJhYzVhMzFkOS1hMmJhLTRlYzItYTE1MC1kZDg1ZmIyYWE2ZmUifQ.4Bj8isTps6TD_W8g_Gn5fN7c-mPIHsaFLwhtESsG8Go' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Remember guy go author treatment despite morning.","maxScore":63,"minScore":24,"description":"Beyond realize society begin gun. Option person bed later hit above scene.\nFree bag federal. Policy under control including really service.","estimatedTime":"2 weeks","previewFileId":"06121adf-3535-403d-95ba-772c6b3a5c9b","createdByUserId":"ac5a31d9-a2ba-4ec2-a150-dd85fb2aa6fe"}'

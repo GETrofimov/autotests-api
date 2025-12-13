@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDExOjE4OjU2LjAzNDE0OCIsInVzZXJfaWQiOiJhMzU3ZjgxMS1jZTcxLTQ4NTMtYWJhNC1kNWUwZGI5Yzc0NmMifQ.cMfTR4Wkw1fC4L-q-BqiGCDmCgqsXr9tb1Yfe_KyVm8' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Religious executive and cost.","maxScore":74,"minScore":29,"description":"Hand center culture raise pick allow tax. Forget term war glass book learn.\nVote yes board believe south. Religious town nation color sound. Hold mission forget term along mind.","estimatedTime":"1 weeks","previewFileId":"8213edad-e0bf-448d-9ef6-d0aae9bf271d","createdByUserId":"a357f811-ce71-4853-aba4-d5e0db9c746c"}'

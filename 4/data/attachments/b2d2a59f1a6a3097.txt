@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDExOjE4OjU2LjYxNjQ1OSIsInVzZXJfaWQiOiIzOGNiZTIyMC0wY2NkLTQwYmUtOTE4Yy0yNTBkNWRjZjk2NGYifQ.cppv1KTl4w43pOMEr_lIcE2Nke8UqbbAalWbwppcYgs' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Doctor option condition area authority action.","courseId":"83c7145f-d65b-4961-8a41-1919a83c7475","maxScore":80,"minScore":8,"orderIndex":73,"description":"Much example face wrong fill enjoy certainly. Site pattern road. State election open whether account morning.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDExOjE4OjU1LjM5MzE1NSIsInVzZXJfaWQiOiIyOTQzZWQ5ZS1jNGYxLTRiNDItOTU0NC1mYTQ2Njc4NGM0YTkifQ.zzIrmXHjze5OZlRrb45br1T4s3SMim0zhyA-TWhKEzw' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Imagine measure law become civil.","maxScore":56,"minScore":24,"description":"Set perform also test ten. Easy system north teacher generation relate.\nKnow particular because mind behind. My direction fall brother agency decade. Ten seat exactly.","estimatedTime":"3 weeks","previewFileId":"ca75aaca-c721-4586-9531-02fde201cee5","createdByUserId":"2943ed9e-c4f1-4b42-9544-fa466784c4a9"}'
