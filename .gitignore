@@ -1,0 +1,5 @@
+allure-results/*
+__pycache__
+.vscode
+.venv
+allure-results
