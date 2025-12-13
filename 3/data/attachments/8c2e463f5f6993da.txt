@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDEwOjQzOjI5LjAxMzUwNSIsInVzZXJfaWQiOiIyOGQxNDBjZi0xYmExLTQ4OWEtYmUwOC0yYzMzM2ZhMWNhYTMifQ.Q-Xr93r5QApmZ-vTXsjJA_deq7M6Z4LhRmEE7WwWLjk' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wall alone small admit.","maxScore":55,"minScore":21,"description":"Treat federal agree almost. Discover happen write. To well one although.\nStep exactly budget condition stuff. Grow rule these country nation resource firm around. Wind go within section south public.","estimatedTime":"6 weeks","previewFileId":"9d2b417b-56d3-4fb3-a190-8b24523978eb","createdByUserId":"28d140cf-1ba1-489a-be08-2c333fa1caa3"}'

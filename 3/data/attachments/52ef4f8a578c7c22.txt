@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDEwOjQzOjI2LjE1MzMyMCIsInVzZXJfaWQiOiI3OTZmOWU5OC00NGI5LTRhNTMtYTAzOC0wNDExMjQ5OTZlMWMifQ.-Py86JqfoKljOrGw6VH8jWkEwdnsHosUws50mSF5E1w' \
+  -H 'content-length: 435' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Possible ability leg language manage mention expect special.","maxScore":100,"minScore":22,"description":"Professor develop car hold minute every. You suffer alone capital common send bed.\nSpecial finish boy. Throw water create care everything. Listen week century true certain wear.","estimatedTime":"10 weeks","previewFileId":"a098353a-c95f-4039-933c-8e3ded09e03b","createdByUserId":"796f9e98-44b9-4a53-a038-041124996e1c"}'

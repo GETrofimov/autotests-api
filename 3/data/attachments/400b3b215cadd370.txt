@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDEwOjQzOjI4LjQwODkxNCIsInVzZXJfaWQiOiIyNGU1YWM1NS04MjBkLTQ0MzgtODk2MC01OWU5Y2Y4OWJlNzIifQ.V-bcGh5trxoJTgAIkirh85r_DyqEplhJpO5QkAruGo0' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Person factor according no.","maxScore":92,"minScore":18,"description":"Movement stock coach there.\nIn quite can that general course or. Next respond ability.","estimatedTime":"7 weeks","previewFileId":"2113fcca-6c61-4b87-bea7-88a1525f9f7d","createdByUserId":"24e5ac55-820d-4438-8960-59e9cf89be72"}'
