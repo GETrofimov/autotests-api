@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDExOjMwOjEwLjcyMzI4NyIsInVzZXJfaWQiOiJmZDMxZmFlYS05YWU4LTQ1OTItOWMwMS1hODQ5Y2Y0MWNjMjEifQ.j01z4J9pTaB-MTnJVYUSylxFGVpLAP4UcNWdXKT6YYg' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bill believe truth plan.","maxScore":77,"minScore":3,"description":"Over within southern theory. Box main happen when.\nArea rather indeed both book skill. Official affect try reality two now.","estimatedTime":"7 weeks","previewFileId":"7fe07c97-bbb5-491b-915a-8a32f85e747c","createdByUserId":"fd31faea-9ae8-4592-9c01-a849cf41cc21"}'

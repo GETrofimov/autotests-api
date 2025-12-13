@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDExOjMwOjExLjk0MTc4NyIsInVzZXJfaWQiOiI2OWRhZjgzZC05MTQyLTRkZDYtODUxNi1kM2VhNDdmNmY2Y2QifQ.PbNMqpKbk_suFKA5LUkVX9bxrLqPhpLvYuDG6NhkX5Y' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soon own far another music his.","maxScore":60,"minScore":5,"description":"National boy imagine of can.\nForm your great sort. Generation learn could perform apply.\nBy machine bank every evening even mind care. Especially identify woman finally arm pay responsibility throw.","estimatedTime":"9 weeks","previewFileId":"a25ca12c-0bfb-49d2-ad51-9151e965c4cb","createdByUserId":"69daf83d-9142-4dd6-8516-d3ea47f6f6cd"}'

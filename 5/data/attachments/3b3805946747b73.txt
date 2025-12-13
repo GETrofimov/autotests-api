@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDExOjMwOjA4LjYwOTAyOSIsInVzZXJfaWQiOiJlMmQ1YzU1Ni1hZDcwLTQxZDItYTU4ZS1jNDUzMDY1ZWJkZDcifQ.rRgv665pam_94oxx6Co-e_S-vB8NgOxR2TEzZ1FSGRo' \
+  -H 'content-length: 435' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Five owner result response find scientist audience soldier.","maxScore":83,"minScore":2,"description":"Exist international window start meet. Stuff view these many. Mission party shoulder.\nTruth local card bit some. Personal mouth very already game community. Event show card contain.","estimatedTime":"9 weeks","previewFileId":"a7df5f25-3073-42af-98ba-af8274fc36f6","createdByUserId":"e2d5c556-ad70-41d2-a58e-c453065ebdd7"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDExOjMwOjA3LjQ3MjE4MiIsInVzZXJfaWQiOiJhMDZmYmQwMi1kYzgxLTQ5MTgtOTJlOS02N2M5YWNiOWI1ZDYifQ.xMMzKvK6yQco_um_NcF_z2WO5RVyy1ABto5NjXYQ2qQ' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tonight kitchen history three often.","maxScore":88,"minScore":15,"description":"Stage artist bring our. Day itself option car.\nMake fly reduce thousand sound. Save tax camera military never second.","estimatedTime":"8 weeks","previewFileId":"f004cfd9-6294-4c2a-a89d-aa84e66938dd","createdByUserId":"a06fbd02-dc81-4918-92e9-67c9acb9b5d6"}'
