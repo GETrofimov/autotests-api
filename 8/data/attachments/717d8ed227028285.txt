@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDEwOjQ3OjIzLjkxMjkyNiIsInVzZXJfaWQiOiI0OTI2YWE1Yi02ZjMwLTRmN2YtODAxZS01NTVmNDE0ODliNzQifQ.NF91L_zND0aUXp5d3yX3HxWdrRduLUD-z8p_-aG1Bsk' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Effort goal budget must hotel far break.","maxScore":51,"minScore":16,"description":"Since vote benefit reason whose case cause. Mention very early.\nEat choice site point candidate. No long debate design he use.","estimatedTime":"4 weeks","previewFileId":"800ffd59-9825-4802-b4ae-a15f5c1dd0eb","createdByUserId":"4926aa5b-6f30-4f7f-801e-555f41489b74"}'

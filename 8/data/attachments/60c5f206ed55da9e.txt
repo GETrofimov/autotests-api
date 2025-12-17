@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDEwOjQ3OjI1LjAyNjI3NiIsInVzZXJfaWQiOiI0ZmFhZTkyOS1iNjU5LTQ0YzYtOTk4OC03Y2I5ZWQ3NzUwMjUifQ.wJeVnhcVCMNpSV7VGzs-KoLe1GYvk062TywvGQ5ctMQ' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Message air television order will.","maxScore":85,"minScore":18,"description":"Later ever front he machine. Lose stuff player best argue officer. Respond pass hard push order.\nTeacher wait themselves hard explain quality pressure.\nCollege more good anything.","estimatedTime":"3 weeks","previewFileId":"9499c07f-6556-457d-bad8-da5b04447986","createdByUserId":"4faae929-b659-44c6-9988-7cb9ed775025"}'

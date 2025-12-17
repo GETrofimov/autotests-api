@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDEwOjQ3OjI0Ljc2NTUzNSIsInVzZXJfaWQiOiIwN2NmZWVmOS0yYjcwLTQ0MzctOTZhZi0yZWZiY2Y4NDhkZDgifQ.Bja0-dvtWghcIWa3f3L5qMd2oCg8PQGINf9i_2tKo2U' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Surface office above late economy page.","courseId":"04ebacce-a116-4868-870e-a04fe0d6993d","maxScore":65,"minScore":15,"orderIndex":100,"description":"Affect property bank. Plan fight series into modern three. Population third drop economic.\nHim sound follow figure site happy. Argue everybody kind talk space country hotel TV. His feel particularly.","estimatedTime":"8 weeks"}'

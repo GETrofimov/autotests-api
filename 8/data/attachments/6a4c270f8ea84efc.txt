@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ffdb28ca-5e43-4ef2-af72-2de08bb1a57b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDEwOjQ3OjIzLjM1MTk2MCIsInVzZXJfaWQiOiJhNDJjM2YzZi02YjA4LTQ3MzQtOTc1MC01ZjEyMzEwYzBjMTAifQ.qVXNoAHHInM_z6c12ig9CPKW5nmbUjBEQKHU0cpkwig' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Voice throughout most amount worry.","maxScore":61,"minScore":8,"description":"College end use personal language. Somebody positive successful conference charge television forget director.\nCompany rise material vote effort city reason. Compare beat character under join.","estimatedTime":"1 weeks"}'

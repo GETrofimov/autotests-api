@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDEwOjQ3OjI1LjAyNjI3NiIsInVzZXJfaWQiOiI0ZmFhZTkyOS1iNjU5LTQ0YzYtOTk4OC03Y2I5ZWQ3NzUwMjUifQ.wJeVnhcVCMNpSV7VGzs-KoLe1GYvk062TywvGQ5ctMQ' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Actually before because range include resource.","courseId":"8654c2a5-3ed3-403d-9f2c-6a21a6b2c588","maxScore":58,"minScore":29,"orderIndex":16,"description":"Significant evening everybody bit again outside carry. Political meet beat. Quickly truth food become.","estimatedTime":"9 weeks"}'

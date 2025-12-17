@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDEwOjQ3OjI2LjIxOTUzNCIsInVzZXJfaWQiOiI3ZmMzMGVlYi03NDFkLTQ0MGItYTYzMi02NjcxMWFhNWU4ZjAifQ.tN4V0mJMmfMafdW_PzNXgZ9cR5JWtKptLSN19RwL8NY' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Environment author tell.","maxScore":78,"minScore":22,"description":"Authority very sometimes training next program imagine senior. Moment eat however true sell quality. Realize night condition participant indeed.","estimatedTime":"9 weeks","previewFileId":"1dbeb4b7-3b66-47c8-8d6b-baada2b284cd","createdByUserId":"7fc30eeb-741d-440b-a632-66711aa5e8f0"}'

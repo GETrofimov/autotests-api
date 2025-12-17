@@ -1,0 +1,32 @@
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:21 Make GET request to http://localhost:8000/api/v1/courses?userId=8f6b759e-0c84-4036-a4aa-e72e66fe1ef0
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=8f6b759e-0c84-4036-a4aa-e72e66fe1ef0
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:91 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:67 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to aba0b0d4-5f64-4323-966b-a7ee9ab49b4a
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Knowledge yeah author stand story structure store.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 86
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 21
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Quality body if leg fire color central. Whose tend something along smile hope everyone. Her game young contain she. Production model these million billion.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 8 weeks
+INFO     FILES_ASSERTIONS:files.py:50 Check file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 823c54e8-bf4f-46fb-8e7e-3240f0bdb3f2
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals to http://localhost:8000/static/tests/a099dc03-e291-425a-834c-fca2c8f86b88.png
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals to a099dc03-e291-425a-834c-fca2c8f86b88.png
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals to tests
+INFO     USER_ASSERTIONS:users.py:34 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals to justinhuang@example.org
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals to Hughes
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals to Maria
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals to Maurice
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema
