@@ -42,7 +42,9 @@ autotests-api/
    python -m venv .venv
    ```
 3. Activate virtual environment:
-   - Windows: `.venv\Scripts\activate`
+   ```bash
+   .venv\Scripts\activate
+   ```
 4. Install dependencies:
    ```bash
    pip install -r requirements.txt
