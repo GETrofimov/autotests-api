@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjM1OjUzLjk0Mzk0MiIsInVzZXJfaWQiOiI4Nzc2NDY1OS1jYzAyLTQxZGEtYmY1NS05YWMzY2E0NTM1NTkifQ.TmNgOCc6uGY3qSwwHQNYjEQcmYUrlYS49OGhp8YO1gY' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Name relate such like suddenly later.","maxScore":95,"minScore":6,"description":"Skill try bill. Mouth require half how business soon.\nPlay ready score person service difference. Article figure size PM I perhaps lead.","estimatedTime":"5 weeks","previewFileId":"07bf46ff-85db-4037-8884-4dde5fffff1e","createdByUserId":"87764659-cc02-41da-bf55-9ac3ca453559"}'

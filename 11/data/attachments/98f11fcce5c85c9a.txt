@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjM1OjUyLjc4NTQyOCIsInVzZXJfaWQiOiI3ZGM1YWFjYi02NzMyLTQ0ZWQtYTRmMi0zZjA0ZDQyZjU4NjYifQ.0vBkqH6cXHkrkI-vB-8EgplxRtPUmsj3FzGToPI1sA0' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Third them prevent tonight check dinner.","maxScore":83,"minScore":25,"description":"Learn sort nor sometimes possible rock. Usually culture person meeting better government. Foreign election involve contain.","estimatedTime":"8 weeks","previewFileId":"84d73642-5e34-4039-ac29-1b4365f0b171","createdByUserId":"7dc5aacb-6732-44ed-a4f2-3f04d42f5866"}'

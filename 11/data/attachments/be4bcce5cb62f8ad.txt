@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:21 Make GET request to http://localhost:8000/api/v1/courses?userId=ba1d5ac5-e437-40cb-a8c0-2a1643d1f543
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=ba1d5ac5-e437-40cb-a8c0-2a1643d1f543
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:91 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:67 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 286da9e6-298b-485f-9d2b-eed95cc04754
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Soon local minute never.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 79
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 29
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Manage term television evidence question. Hot crime past south close space serious. Bar because far hour return.
+Authority size key marriage. Morning rule any crime eight part entire.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 7 weeks
+INFO     FILES_ASSERTIONS:files.py:50 Check file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 8bf50f65-582d-42bc-b6ea-8f55baa6bff4
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals to http://localhost:8000/static/tests/a3d1b39e-4245-4675-873e-6a28dddfe92a.png
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals to a3d1b39e-4245-4675-873e-6a28dddfe92a.png
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals to tests
+INFO     USER_ASSERTIONS:users.py:34 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals to brandon26@example.org
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals to Hernandez
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals to Mary
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals to James
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

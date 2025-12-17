@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjM1OjUzLjk0Mzk0MiIsInVzZXJfaWQiOiI4Nzc2NDY1OS1jYzAyLTQxZGEtYmY1NS05YWMzY2E0NTM1NTkifQ.TmNgOCc6uGY3qSwwHQNYjEQcmYUrlYS49OGhp8YO1gY' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"College way learn respond career tax realize small.","courseId":"f5e55a4b-c768-4251-912b-a1e7de9c603c","maxScore":64,"minScore":20,"orderIndex":25,"description":"Option force either. Happy government place nature morning agree. It decision soon site paper discuss project want. Dinner treat yeah over common receive voice.","estimatedTime":"3 weeks"}'

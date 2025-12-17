@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/213e7568-ebc0-4053-bff0-ca6924f13cd0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjM1OjUyLjIyMzA1OCIsInVzZXJfaWQiOiJhMDQzODU3Yy1hNmZmLTQzZGUtYTQ0My1hZTgwOGM4M2E1MmEifQ.qUFcHTg8tioL2IQvdXtY2EuBYlUzm8FEOjYLCOiCEQU' \
+  -H 'content-length: 227' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Friend court well popular remember this.","maxScore":60,"minScore":6,"description":"Risk strong if open make happen. Seat compare thing image field. Improve decision step purpose play baby.","estimatedTime":"3 weeks"}'

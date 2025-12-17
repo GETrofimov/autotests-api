@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjM1OjUyLjIyMzA1OCIsInVzZXJfaWQiOiJhMDQzODU3Yy1hNmZmLTQzZGUtYTQ0My1hZTgwOGM4M2E1MmEifQ.qUFcHTg8tioL2IQvdXtY2EuBYlUzm8FEOjYLCOiCEQU' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Together sort its TV major others your.","maxScore":55,"minScore":29,"description":"Weight strategy identify even local. You fear we why sister answer degree. Force investment fast method.","estimatedTime":"1 weeks","previewFileId":"8230efca-5dd7-411a-b46d-378a76b21f24","createdByUserId":"a043857c-a6ff-43de-a443-ae808c83a52a"}'

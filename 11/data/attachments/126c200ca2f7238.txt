@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjM1OjUxLjM2NDE3MiIsInVzZXJfaWQiOiJiYTFkNWFjNS1lNDM3LTQwY2ItYThjMC0yYTE2NDNkMWY1NDMifQ._1i11PPlCi6cTr2_vS_qXarRS_-o0HB33_UpKDMLCF4' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soon local minute never.","maxScore":79,"minScore":29,"description":"Manage term television evidence question. Hot crime past south close space serious. Bar because far hour return.\nAuthority size key marriage. Morning rule any crime eight part entire.","estimatedTime":"7 weeks","previewFileId":"8bf50f65-582d-42bc-b6ea-8f55baa6bff4","createdByUserId":"ba1d5ac5-e437-40cb-a8c0-2a1643d1f543"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjM1OjU1LjY5NTc2OSIsInVzZXJfaWQiOiI0ZDQzMzM0Yy0zOTNiLTQzNGQtYTU1Zi01ZDcwOTg5NjliMzkifQ.SmcVIlVr8WSPANRucl2izO-iYSNOaFwAPJPYH4J7kBM' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"In deal example physical.","maxScore":65,"minScore":10,"description":"Agreement discussion stage social late action out. Government win campaign save music. Answer dog later special.","estimatedTime":"1 weeks","previewFileId":"19b5a2b5-6a2a-4fda-9671-ab301df46909","createdByUserId":"4d43334c-393b-434d-a55f-5d7098969b39"}'

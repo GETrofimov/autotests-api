@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/627c9b34-bfec-49b6-a8d9-157dffd7b05a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjM1OjUzLjk0Mzk0MiIsInVzZXJfaWQiOiI4Nzc2NDY1OS1jYzAyLTQxZGEtYmY1NS05YWMzY2E0NTM1NTkifQ.TmNgOCc6uGY3qSwwHQNYjEQcmYUrlYS49OGhp8YO1gY' \
+  -H 'content-length: 276' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trial child enjoy guy operation expert college.","maxScore":77,"minScore":15,"orderIndex":19,"description":"Consider scene school security any determine. Reflect boy young realize. Sea community product factor. Treat everybody soon power.","estimatedTime":"2 weeks"}'
