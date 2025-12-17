@@ -2,3 +2,7 @@ __pycache__
 .vscode
 .venv
 allure-results
+coverage.html
+coverage-results
+coverage-report.json
+coverage-history.json
