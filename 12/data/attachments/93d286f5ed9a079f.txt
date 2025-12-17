@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjM2OjA0Ljc5NTE2MyIsInVzZXJfaWQiOiIyZGY2NjYxZi05ODI1LTQ1YWItOWRkMy04MWE2Yjg4YTk1NTEifQ.C6ipBYAVsbhHry1eea3Mx7dH4ewSN9DYLRjeRZpjQXk' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Open event name poor someone apply mind.","courseId":"93171c29-62fe-4d1b-a0ea-e1e576f80ce0","maxScore":93,"minScore":30,"orderIndex":31,"description":"Magazine lawyer once avoid avoid particularly bag. At everybody poor market suggest.\nCommercial difficult which dream identify. Food crime also.","estimatedTime":"1 weeks"}'

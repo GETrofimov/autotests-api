@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjM2OjA1LjQxODczNSIsInVzZXJfaWQiOiI0OWE3MWU0YS1lNDM0LTQ2ZTQtOGY4ZS1hOGYzYzliZDUyMjEifQ.AmUOM_WAfavzyBsdeVqo4vjQ8RmQE7Tft-sWpj_sPws' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Receive little follow what exactly buy.","maxScore":85,"minScore":18,"description":"Financial feeling eye fight offer group. Watch employee TV itself water blood.\nFace fund policy. Executive think majority nice ability paper why. Beautiful you tell wonder campaign.","estimatedTime":"2 weeks","previewFileId":"b8d085dc-9946-4bb9-8f7d-d28e3aa7e71e","createdByUserId":"49a71e4a-e434-46e4-8f8e-a8f3c9bd5221"}'

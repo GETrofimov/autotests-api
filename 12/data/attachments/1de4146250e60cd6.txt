@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:23 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Blood run clear decision avoid culture benefit.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 70
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 13
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Cultural their indeed also ago. Others technology movie reflect use left house leg. Television reach yeah. Need guy follow manager raise off nothing second.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimatedTime" equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "previewFileId" equals to 4273339a-0a43-4c0c-9ca6-4b6463fda6d8
+INFO     BASE_ASSERTIONS:base.py:38 Check that "createdByUserId" equals to 9aaf70b0-41a0-414a-96de-d29d5de8a452
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjM2OjAzLjU2MDkyOCIsInVzZXJfaWQiOiI4ZmQzOGY3Ni0xMzQ4LTRiYTctODliZC05MzI2NGI2MTM1N2IifQ.NFWdIB7RGdmv5VHHLAYZFfw9jlQ1Y9z5zKgKaCEDr0I' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Continue management exist tough more cold between.","maxScore":97,"minScore":4,"description":"Office plan young low plan.\nAdministration back local administration. Could body chair ask open spend. Method trade class or always prove.","estimatedTime":"2 weeks","previewFileId":"424a67d6-41e8-4835-bc01-43e862ecddfa","createdByUserId":"8fd38f76-1348-4ba7-89bd-93264b61357b"}'

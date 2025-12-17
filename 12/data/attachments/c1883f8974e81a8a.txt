@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjM2OjAxLjE2NzE3OSIsInVzZXJfaWQiOiJlMGU2MTY5Ny0xNjU5LTQ2ZTctYjQ3Yy1lODFjNmYxODcwMWYifQ.zmQsQA6N4u6Oc_n_nruBG0kgOcL0aOV6BWC_MtQrnAw' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Where air drive successful beyond leg discover determine.","maxScore":76,"minScore":18,"description":"Order couple protect fill town outside. Their so me about.\nJob simply interview discuss base too administration.","estimatedTime":"6 weeks","previewFileId":"b664c655-1f9f-4abe-83b7-62a3a0b3aaa3","createdByUserId":"e0e61697-1659-46e7-b47c-e81c6f18701f"}'

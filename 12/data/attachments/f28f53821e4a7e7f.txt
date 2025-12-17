@@ -1,0 +1,16 @@
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:24 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Particularly stage charge help model hope.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to fa16d96f-895a-4b1f-931e-7412db281e3e
+INFO     BASE_ASSERTIONS:base.py:38 Check that "maxScore" equals to 57
+INFO     BASE_ASSERTIONS:base.py:38 Check that "minScore" equals to 30
+INFO     BASE_ASSERTIONS:base.py:38 Check that "orderIndex" equals to 5
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Strategy natural check yeah audience good. Decision half available research line eat difference. Result candidate down program.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimatedTime" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/773d5945-195d-44f5-a24e-377c1751b642' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjM2OjAzLjU2MDkyOCIsInVzZXJfaWQiOiI4ZmQzOGY3Ni0xMzQ4LTRiYTctODliZC05MzI2NGI2MTM1N2IifQ.NFWdIB7RGdmv5VHHLAYZFfw9jlQ1Y9z5zKgKaCEDr0I' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Operation push seek remember us sell deal lot.","maxScore":64,"minScore":17,"orderIndex":29,"description":"Situation down idea not. Control player big answer language. Wind spend billion leg question. When challenge design certain.\nAlthough involve despite top threat add television.","estimatedTime":"1 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjM2OjAxLjc0OTQ3NiIsInVzZXJfaWQiOiI3ZDBhYThlZi0xYTEwLTQwY2ItODhiZC03NGFhNzUxMDcwNWEifQ.ELJSzzrYR2tbUBkhvFUNNg3Wl5HMO5OYWraM5xn4npo' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Purpose person serious relate history.","maxScore":100,"minScore":20,"description":"Seek painting white answer cell. Fire risk far its class sell development.\nA professor control. Learn lay trouble.","estimatedTime":"8 weeks","previewFileId":"7010989d-6886-4990-b1c1-a2188c65360f","createdByUserId":"7d0aa8ef-1a10-40cb-88bd-74aa7510705a"}'

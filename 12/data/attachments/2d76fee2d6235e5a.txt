@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjM2OjA0Ljc5NTE2MyIsInVzZXJfaWQiOiIyZGY2NjYxZi05ODI1LTQ1YWItOWRkMy04MWE2Yjg4YTk1NTEifQ.C6ipBYAVsbhHry1eea3Mx7dH4ewSN9DYLRjeRZpjQXk' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Report benefit recognize security property.","maxScore":97,"minScore":15,"description":"Turn business Mr area avoid early.\nDaughter southern drug clear doctor. Decision first recognize quite statement. Buy true simply outside create until.\nVote hard detail forget should let fly.","estimatedTime":"3 weeks","previewFileId":"9616e557-0a17-4a28-abeb-8418a9e7bd15","createdByUserId":"2df6661f-9825-45ab-9dd3-81a6b88a9551"}'
