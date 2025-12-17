@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjMyOjAzLjYyODAzMiIsInVzZXJfaWQiOiI1ZjVjMTMxZS01YTJiLTRmNjItYmZjYy01YjNkM2M0YmNmODkifQ._A_ZWYJbXubhZDXSRPOdkzbkBAsxjW-gB50lY0D1lEY' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Claim model travel whatever spring.","courseId":"f89911d9-a534-4596-a62c-fffb0acbbc73","maxScore":73,"minScore":8,"orderIndex":39,"description":"We beautiful six enter maybe. Involve wide behind behind author rule east particularly. Music PM real thing take store huge.","estimatedTime":"2 weeks"}'

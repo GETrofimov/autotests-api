@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjMyOjA0LjIxNTI3MiIsInVzZXJfaWQiOiI2NDM3MTY4OS03ZTk1LTQzN2EtYmY3OS1iYjIyMDhmMzE4ZGIifQ.aQtD2jP12iCRcV6vFKGHD63-KgJbUSy0VhYwtLIKc3A' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Laugh mean ago music while trouble coach.","maxScore":85,"minScore":22,"description":"Born old art money maintain movement. Success perhaps figure business collection break doctor chance.\nStart book different resource. Them strong town cultural.","estimatedTime":"3 weeks","previewFileId":"5020418b-fb48-4b6e-83e9-9926697a3f51","createdByUserId":"64371689-7e95-437a-bf79-bb2208f318db"}'

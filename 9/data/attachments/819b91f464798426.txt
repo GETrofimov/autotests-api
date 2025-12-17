@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjMyOjAzLjYyODAzMiIsInVzZXJfaWQiOiI1ZjVjMTMxZS01YTJiLTRmNjItYmZjYy01YjNkM2M0YmNmODkifQ._A_ZWYJbXubhZDXSRPOdkzbkBAsxjW-gB50lY0D1lEY' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Return east cause wait government positive factor.","maxScore":72,"minScore":9,"description":"Too work too exactly catch seem. Baby six blue no suggest tree success.\nLight benefit level around resource.","estimatedTime":"1 weeks","previewFileId":"70923966-fe2b-420a-8c7f-5bb76680c3b1","createdByUserId":"5f5c131e-5a2b-4f62-bfcc-5b3d3c4bcf89"}'

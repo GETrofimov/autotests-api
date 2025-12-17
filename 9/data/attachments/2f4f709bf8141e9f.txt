@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjMyOjAyLjk4ODczNCIsInVzZXJfaWQiOiIzZWE5OGZhMi04NDVkLTQ3MmItOWU4Mi03OWVjMzNjZTk2ZjEifQ.nWmzwTJspOeio1rLCepu6U-54BWDx7SYKO230YwPRs4' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stay really man Congress owner series.","maxScore":83,"minScore":12,"description":"Worry none training north hospital nation. Speak size suffer where. Bring woman official understand foreign just.","estimatedTime":"10 weeks","previewFileId":"1fb83942-4978-400c-a875-af3e87e40a6b","createdByUserId":"3ea98fa2-845d-472b-9e82-79ec33ce96f1"}'

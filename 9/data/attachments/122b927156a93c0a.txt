@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjMyOjAxLjQ5MDE4NSIsInVzZXJfaWQiOiJjZWUwZGNjNC1jMWFiLTRmMGUtOWY1MS00MTUwOGZjYjUyMzQifQ.04vzlhQNqApeL_nZmLwCPZa4lVKekoU73p9u6x5Yq9I' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Peace per mouth realize our color.","maxScore":94,"minScore":13,"description":"Large attack institution in day. These window measure manager.\nReason manager herself evening lot. Any service fund teach popular prevent. Standard how center response outside page direction.","estimatedTime":"3 weeks","previewFileId":"4e9013c0-64c4-4876-b801-764fed41739b","createdByUserId":"cee0dcc4-c1ab-4f0e-9f51-41508fcb5234"}'

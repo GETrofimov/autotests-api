@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjMyOjAwLjMzNDEyNyIsInVzZXJfaWQiOiJkOTZjYTJiMy1kYjE2LTQ5N2QtYmFmYi1lYjhlOTYzN2EwMTMifQ.QhhgaK1dtMjoEjF-Or3Q7RG_uix4WAoduKkwr112BOw' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Family region growth six smile agree imagine.","maxScore":70,"minScore":27,"description":"Can arrive instead any serious bit. South his blue put keep. State ask foot decision eight.","estimatedTime":"10 weeks","previewFileId":"88ead6a6-88c0-4770-b34d-5752d296fa0d","createdByUserId":"d96ca2b3-db16-497d-bafb-eb8e9637a013"}'

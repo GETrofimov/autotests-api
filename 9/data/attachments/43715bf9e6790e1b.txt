@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE3OjMyOjAxLjc2NDcxNSIsInVzZXJfaWQiOiIwOWViNzIzYi1lYjdjLTRhN2QtYjdkYy0xNTE0MDE0MGU5YjMifQ.8kidccUkH2BPSr0tIjJqRek-1ToS3SVeiI3c78uM9EA' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Above month consider a painting consider voice.","maxScore":64,"minScore":11,"description":"Never manage far Congress. Marriage responsibility table street eat. Meeting commercial method some finally describe.","estimatedTime":"8 weeks","previewFileId":"7e4cb587-ff4b-4e12-b0ee-420662b72037","createdByUserId":"09eb723b-eb7c-4a7d-b7dc-15140140e9b3"}'

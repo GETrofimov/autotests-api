@@ -1,0 +1,23 @@
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:21 Make GET request to http://localhost:8000/api/v1/exercises/61738ff1-3a5d-44f6-ad2a-c7fd996ad117
+INFO     HTTP_CLIENT:event_hooks.py:25 Got response 200 OK from http://localhost:8000/api/v1/exercises/61738ff1-3a5d-44f6-ad2a-c7fd996ad117
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:68 Check get exercise response
+INFO     EXERCISE_ASSERTIONS:exercises.py:46 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Claim model travel whatever spring.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to f89911d9-a534-4596-a62c-fffb0acbbc73
+INFO     BASE_ASSERTIONS:base.py:38 Check that "maxScore" equals to 73
+INFO     BASE_ASSERTIONS:base.py:38 Check that "minScore" equals to 8
+INFO     BASE_ASSERTIONS:base.py:38 Check that "orderIndex" equals to 39
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to We beautiful six enter maybe. Involve wide behind behind author rule east particularly. Music PM real thing take store huge.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimatedTime" equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema
